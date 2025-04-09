@@ -33,7 +33,7 @@ jobs:
           
       - name: Install Keploy VSCode Extension
         run: |
-          code --no-sandbox --user-data-dir /tmp --install-extension keploy.keployio
+          code --no-sandbox --user-data-dir /tmp --install-extension Sonichigo.validyml
       
       - name: Verify Installation
         run: |
